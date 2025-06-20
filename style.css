@@ -1309,6 +1309,32 @@ button:hover {
   }
 }
 
+@media  (max-width: 375px) {
+  .stats {
+    gap: 20px;
+  }
+  .benefits__container::after {
+    top: 19px;
+    left: 34px;
+    width: 146px;
+    height: 139px;
+  }
+  .products__desc {
+    width: 290px;
+  }
+  .contacts__title {
+    font-size: 50px;
+  }
+  .contacts__text {
+    width: 300px;
+  }
+  .contacts__desc {
+    width: 300px;
+  }
+}
+
+
+
 
 
 
