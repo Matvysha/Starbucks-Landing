@@ -1325,6 +1325,9 @@ button:hover {
   .contacts__title {
     font-size: 50px;
   }
+  .text-row__desc.events__desc {
+    width: 330px;
+  }
   .contacts__text {
     width: 300px;
   }
