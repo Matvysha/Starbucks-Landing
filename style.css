@@ -1161,9 +1161,19 @@ button:hover {
   .event__item_btn {
     padding: 15px 20px;
   }
+
 }
 
-@media (max-width: 510px) {
+@media (max-width: 550px) {
+  .btn {
+    padding: 20px 65px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    max-width: 315px;
+  }
   .header__logo {
     font-size: 15px;
   }
@@ -1219,6 +1229,12 @@ button:hover {
   .events__title {
     font-size: 53px;
   }
+  .events__item_title {
+    font-size: 12px;
+  }
+  .event__item_btn {
+    padding: 10px 30px;
+  }
   .events__desc {
     font-size: 14px;
   }
@@ -1232,7 +1248,7 @@ button:hover {
     white-space: pre-wrap;
     position: absolute;
     top: 31px;
-    left: 338px;
+    left: 245px;
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -1276,8 +1292,20 @@ button:hover {
   .welcome__text {
     width: 330px;
   }
+  .btn {
+    width: 220px;
+    height: 61px;
+    padding-block: 20px;
+    padding-inline: 10px;
+  }
   .link {
-    padding: 39px 56px;
+    padding: 18px 56px;
+  }
+  .event__item_btn {
+    width: 115px;
+  }
+  .text-row__desc.events__desc {
+    width: 410px;
   }
 }
 
